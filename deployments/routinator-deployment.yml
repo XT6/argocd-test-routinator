@@ -55,6 +55,5 @@ spec:
           path: /usr/share/zoneinfo/America/Montevideo
       - name: cache-volume
         persistentVolumeClaim:
-          claimName: routinator-nfs-pvc
-          storageClass: nfs-client
+          claimName: routinator-pvc
       restartPolicy: Always
